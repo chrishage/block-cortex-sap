@@ -546,4 +546,18 @@ view: billing {
     type: count
     drill_fields: []
   }
+
+  measure: total_billing_value {
+    type: number
+    sql: sum(${net_value_netwr} + ${tax_amount_mwsbk}) ;;
+    hidden: no
+  }
+
+  measure: count_total_billings {
+    type: count_distinct
+    sql: ${billing_document_vbeln} ;;
+    hidden: no
+  }
+
+
 }
