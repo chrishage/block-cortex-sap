@@ -977,6 +977,7 @@ view: sales_orders {
   dimension: net_price_netwr {
     type: number
     sql: ${TABLE}.NetPrice_NETWR ;;
+    hidden: no
   }
 
   dimension: net_price_target_currency_netpr {
@@ -1407,6 +1408,7 @@ view: sales_orders {
   dimension: sales_document_type_auart {
     type: string
     sql: ${TABLE}.SalesDocumentType_AUART ;;
+    hidden: no
   }
 
   dimension: sales_document_vbeln {
@@ -1419,6 +1421,7 @@ view: sales_orders {
   dimension: sales_group_vkgrp {
     type: string
     sql: ${TABLE}.SalesGroup_VKGRP ;;
+    hidden: no
   }
 
   dimension: sales_office_vkbur {
@@ -1487,6 +1490,7 @@ view: sales_orders {
   dimension: shipping_conditions_vsbed {
     type: string
     sql: ${TABLE}.ShippingConditions_VSBED ;;
+    hidden: no
   }
 
   dimension: shipping_receiving_point_vstel {
@@ -1918,6 +1922,7 @@ view: sales_orders {
   dimension: your_reference_ihrez {
     type: string
     sql: ${TABLE}.YourReference_IHREZ ;;
+    hidden: no
   }
 
   ##################################################### Total Orders  ############################################################

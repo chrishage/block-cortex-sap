@@ -58,6 +58,7 @@ view: billing {
   dimension: billing_document_is_cancelled_fksto {
     type: string
     sql: ${TABLE}.BillingDocumentIsCancelled_FKSTO ;;
+    hidden: no
   }
 
   dimension: billing_document_vbeln {
@@ -303,6 +304,7 @@ view: billing {
   dimension: net_value_netwr {
     type: number
     sql: ${TABLE}.NetValue_NETWR ;;
+    hidden: no
   }
 
   dimension: net_weight_ntgew {
@@ -463,6 +465,7 @@ view: billing {
   dimension: tax_amount_mwsbk {
     type: number
     sql: ${TABLE}.TaxAmount_MWSBK ;;
+    hidden: no
   }
 
   # A measure is a field that uses a SQL aggregate function. Here are defined sum and average
