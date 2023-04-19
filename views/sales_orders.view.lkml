@@ -2394,7 +2394,7 @@ view: sales_orders {
 
   measure: total_order_value {
     type: sum
-    sql: if(${currency_waerk}='COP',${net_price_netwr}*100,${net_price_netwr} + ${tax_amount_in_document_currency_mwsbp} ;;
+    sql: if(${currency_waerk}='COP',${net_price_netwr}*100,${net_price_netwr}) + ${tax_amount_in_document_currency_mwsbp} ;;
     hidden: no
   }
 
