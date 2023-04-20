@@ -554,7 +554,7 @@
     type: field_filter
     default_value: ''
     allow_multiple_values: true
-    required: true
+    required: false
     ui_config:
       type: checkboxes
       display: popover
