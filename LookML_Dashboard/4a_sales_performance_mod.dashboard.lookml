@@ -548,3 +548,17 @@
     explore: sales_orders
     listens_to_filters: []
     field: materials_md.material_text_maktx
+  ##### codigo adicionado
+  - name: Your Reference Ihrez
+    title: Your Reference Ihrez
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: true
+    ui_config:
+      type: checkboxes
+      display: popover
+    model: cortex_sap_operational
+    explore: sales_orders
+    listens_to_filters: []
+    field: sales_orders.your_reference_ihrez
