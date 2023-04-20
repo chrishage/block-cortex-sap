@@ -470,7 +470,7 @@ view: billing {
 
   dimension: tax_amount_item_mwsbk {
     type: number
-    sql: ${TABLE}.TaxAmountItem_MWSBK ;;
+    sql: ${TABLE}.TaxAmountItem_MWSBP ;;
     hidden: no
   }
 
